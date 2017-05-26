@@ -29,7 +29,7 @@ namespace adlademo1
             var applicationid = "3d13d90c-ad44-4138-9dc7-8947cbac179b";
             var subscriptionid = "796eaf7c-2e26-4938-9b94-0f2369c33d74";
             var password = "e5wnO76YaeTFgsKBMSZ1Cdf3e/nPPmN6uVsg2ngNazI=";
-            string name = "sdddddddddddddddddddddddddddd";
+
             SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
             var clientCredential = new ClientCredential(applicationid, password);
             var creds = ApplicationTokenProvider.LoginSilentAsync(tenantid, clientCredential).Result;
